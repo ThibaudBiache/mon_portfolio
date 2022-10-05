@@ -13,18 +13,18 @@
         <p class="welcome-msg">Bienvenue sur mon Portfolio!</p>
         <nav>
             <ul  class="navigation">
-                <li class="navigation-link"><a class="anchor" href="#accueil">Accueil</a></li>
-                <li class="navigation-link"><a class="anchor" href="#">Mon profil</a></li>
+                <li class="navigation-link"><a class="anchor" href="#welcome">Accueil</a></li>
+                <li class="navigation-link"><a class="anchor" href="#my-profile">Mon profil</a></li>
                 <li class="navigation-link"><a class="anchor" href="#">Mes projets</a></li>
                 <li class="navigation-link"><a class="anchor" href="#">Me contacter</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
-        <section class="accueil" id="accueil">
+        <section class="welcome" id="welcome">
             <div class="presentation-box">
                 <p class="presentation">Bonjour, je m'appelle<br><br><strong>Thibaud Biache</strong><br><br>
-                    Je suis développeur fullstack
+                    Je suis développeur web fullstack
                 </p>
                 <br>
                 <div class="logo-container">
@@ -34,16 +34,21 @@
                 </div>
             </div>
         </section>
-        <section class="mon-profil" id="mon-profil">
-            <div class="profile-container">
-                <h2>Mon profil</h2>
+
+        <section class="my-profile" id="my-profile">
+            <div class="profile-box">
+                <h2 class="profile-title">Mon profil</h2>
                 <br>
-                <p>
-                    Si vous recherchez un développeur motivé, sérieux, curieux et impliqué, n'hésitez pas à me contacter!
+                <p class="profile-intro">
+                    Si vous recherchez un développeur motivé, sérieux, curieux et impliqué, n'hésitez pas à me contacter!<br><br>
                 </p>
                 <div class="mail-copy">
-                    <p>Pour copier mon adresse mail:</p>
-                    <button type="button" onclick="copyToClipboard()">Cliquez-moi</button>
+                    <button class="mail-btn" type="button" onclick="copyToClipboard(); doSomethingElse()">Copier mon email!</button>
+                </div>
+                <br>
+                <div class="cv-download">
+                    <p>Vous pouvez également télécharger mon CV:&nbsp;</p>
+                    <a href="./CV_Thibaud_Biache.pdf" download>en utilisant ce lien!</a>
                 </div>
             </div>
         </section>
