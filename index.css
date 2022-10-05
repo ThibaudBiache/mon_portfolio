@@ -1,0 +1,81 @@
+body {
+    color: #B1D0E0;
+    background-color: #1A374D;
+    font-family: Calibri, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: #1A374D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    position: fixed;
+    top: 0;
+}
+
+.welcome-msg {
+    font-weight: bold;
+    font-size: 2em;
+    color: #B1D0E0;
+}
+.navigation {
+    display: flex;
+}
+
+.navigation-link {
+    padding: 0 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.anchor {
+    color: #B1D0E0;
+    transition: color 1s ease;
+}
+
+.anchor:hover {
+    color: rgb(55, 224, 66);
+}
+
+.main {
+    margin: 80px 0 0 0;
+}
+
+.accueil {
+    width: 100%;
+}
+
+.presentation-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2em;
+    width: 30%;
+    height: 800px;
+    margin: auto;
+}
+
+.presentation {
+    font-size: 1.5em;
+    color: #6998AB;
+}
+
+strong {
+    font-weight: bold;
+    color: #B1D0E0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 64px;
+}
+
+.mail-copy {
+    display: flex;
+}

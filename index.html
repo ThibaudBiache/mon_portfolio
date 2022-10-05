@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Thibaud Biache</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <p class="welcome-msg">Bienvenue sur mon Portfolio!</p>
+        <nav>
+            <ul  class="navigation">
+                <li class="navigation-link"><a class="anchor" href="#accueil">Accueil</a></li>
+                <li class="navigation-link"><a class="anchor" href="#">Mon profil</a></li>
+                <li class="navigation-link"><a class="anchor" href="#">Mes projets</a></li>
+                <li class="navigation-link"><a class="anchor" href="#">Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="accueil" id="accueil">
+            <div class="presentation-box">
+                <p class="presentation">Bonjour, je m'appelle<br><br><strong>Thibaud Biache</strong><br><br>
+                    Je suis développeur fullstack
+                </p>
+                <br>
+                <div class="logo-container">
+                    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/64px-JavaScript-logo.png" alt="JavaScript logo">
+                    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React logo">
+                    <img class="logo" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="Node logo">
+                </div>
+            </div>
+        </section>
+        <section class="mon-profil" id="mon-profil">
+            <div class="profile-container">
+                <h2>Mon profil</h2>
+                <br>
+                <p>
+                    Si vous recherchez un développeur motivé, sérieux, curieux et impliqué, n'hésitez pas à me contacter!
+                </p>
+                <div class="mail-copy">
+                    <p>Pour copier mon adresse mail:</p>
+                    <button type="button" onclick="copyToClipboard()">Cliquez-moi</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
