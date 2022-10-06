@@ -110,7 +110,7 @@ strong {
     padding: 1em;
     font-weight: 800;
     box-shadow: 5px 5px 10px 0px #6998AB;
-    transition: background-color 1.5s;
+    transition: background-color 0.3s;
 }
 
 .mail-btn-clicked {
@@ -123,9 +123,9 @@ strong {
 }
 
 .copy-confirm {
-    color: green;
     padding: 0 10px;
 }
 
-.cv-download {
+.cv-download-link {
+    color: #6998AB;
 }
